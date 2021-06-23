@@ -1,0 +1,10 @@
+Differences between Natural Join and Equi joins
+
+equi join 
+- performed in where clause
+- joins using = sign
+- joining the common attribute or columns in the where clause
+-----------------------------------------------
+natural join 
+- performed in from clause
+- joining the common attribute WITH THE SAME NAME in the from clause
