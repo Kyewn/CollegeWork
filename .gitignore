@@ -1,6 +1,7 @@
-*.pdf
 *.doc
+*.docx
 *.ppt
 *.pptx
 *.zip
-./Holistic
+*.rar
+*.mp4
