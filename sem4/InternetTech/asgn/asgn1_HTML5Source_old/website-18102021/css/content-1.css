@@ -1,0 +1,241 @@
+.content{
+    height: 89%;
+    background-image: linear-gradient(315deg, #d9e4f5 0%, hsl(311, 100%, 96%) 74%);
+}
+
+.left {
+    position: relative;
+    width: 38%;
+    height: 100%;
+    display: inline-block;
+}
+
+.text {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+    text-align: left;
+    margin-left: 3em;
+}
+
+.text h1 {
+    font-size: 3rem;
+    animation: slideAndFadeInLeft 1.3s ease-out forwards;
+}
+
+.text h1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 2.5em;
+    height: 5px;
+    margin-top: 3.7rem;
+    background-color: #273586;
+    opacity: 0;
+    animation: titleBarExtendLeft 1s 1.5s cubic-bezier(.17,.67,.18,.96) forwards, fadeIn 1s 1.5s ease-out forwards;
+}
+
+.text p{
+    font-size: 1rem;
+    color: rgb(83, 83, 83);
+    margin-top: 1em;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: bolder;
+    opacity: 0;
+    animation: fadeIn 1s 2.2s ease-out forwards;
+}
+
+.right {
+    position: relative;
+    width: 62%;
+    height: 100%;
+    float: right;
+}
+
+.calculator-ctn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    height: 80%;
+    width: 95%;
+    margin-right: 3em;
+    border: 5px solid #071040;
+    border-radius: 10px;
+    background-color: rgba(169, 103, 255, 0.01);
+    opacity: 0;
+    animation: fadeIn 1s 2.8s ease-out forwards;
+}
+
+.main-panel {
+    position: relative;
+    background-color: #071040;
+    height: 60%;
+    text-align: center;
+}
+
+.main-panel p:first-child {
+    font-family: 'Noto Sans Display', sans-serif; 
+    position: absolute; 
+    right: 0; 
+    padding-right: 15px; 
+    padding-top: 10px; 
+    color: rgb(243, 243, 243); 
+    font-size: 0.6rem;
+}
+
+.display-ctn {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.display-rate{
+    color: rgb(75, 87, 156);
+    font-size: 16pt;
+}
+.main-panel div {
+    font-size: 40pt;
+    color: white;
+    max-height: 100pt;
+}
+
+.bottom-panel {
+    height: 40%;
+}
+
+.fromNto {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.from-ctn, .from-ctn *, .to-ctn, .to-ctn *{
+    display: inline-block;
+}
+
+.from-ctn p, .to-ctn p {
+    display: block;
+    padding-bottom: 5px;
+    font-size: 14pt;
+}
+
+.dropdown, .dropdown *{
+    cursor: pointer;
+}
+
+.dropdown1{
+    background-color: rgb(80, 80, 255);
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all .1s ease-out;
+}
+
+.dropdown1:hover {
+    background-color: rgb(63, 63, 194);
+}
+
+.dropdown1:active {
+    background-color: rgb(63, 63, 194);
+}
+
+.dropdown2{
+    background-color: rgb(209, 52, 52);
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all .1s ease-out;
+}
+
+.dropdown2:hover {
+    background-color: rgb(170, 41, 41);
+}
+
+.dropdown2:active {
+    background-color: rgb(170, 41, 41);
+}
+
+.dropdown select {
+    height: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.dropdown select option {
+    color: black;
+    
+}
+
+.dropdown img {
+    vertical-align: middle;
+}
+
+form input {
+    display: block;
+    border: 3px solid black;
+    height: 50px;
+    width: 96%;
+    background-color: white;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.icon {
+    display: inline-block;
+    padding: 18px;
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all .1s ease-out;
+}
+
+.icon:hover {
+    padding: 18px;
+    background-color: grey;
+}
+
+.icon:active {
+    background-color: rgb(97, 97, 97);
+}
+
+@keyframes slideAndFadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes titleBarExtendLeft {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 2.5em;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

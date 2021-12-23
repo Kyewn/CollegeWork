@@ -1,0 +1,274 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+/****************************** NAVBAR ******************************/
+nav {
+    position: relative;
+    width: 100%;
+    height: 12vh;
+    padding: 1.5em 4em;
+    background-color: white;
+    box-shadow: 0 2px 12px 4px rgba(255, 255, 255, 0.5);
+    z-index: 100;
+}
+
+#NavList {
+    display: inline-block;
+    height: 100%;
+    float: right;
+}
+
+.NavList__Link {
+    display: inline;
+    padding: 0.6em 0 0 0;
+    height: 100%;
+    float: right;
+    margin: 0 2em 0 4em;
+}
+
+.NavList__Link a {
+    color: rgba(0, 0, 0, 0.9);
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -1px;
+    transition: color 0.4s ease-out;
+}
+
+.NavList__Link a:hover {
+    color: red;
+}
+
+.NavList__Link a::after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background-color: red;
+    transition: 300ms;
+}
+
+.NavList__Link a:hover::after {
+    width: 100%;
+}
+
+#SiteLogo {
+    height: 100%;
+}
+
+#SiteLogo__Img {
+    height: 100%;
+}
+
+/****************************** HEADER ******************************/
+#Section1 {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url('Images/galaxy.jpg');
+    background-attachment: fixed;
+    border-bottom: 3px solid red;
+}
+
+#SearchFormContainer {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    padding: 3.5rem 0;
+}
+
+/*********** HEADER TEXT **********/
+#SearchForm__Text {
+    flex-grow: 1;
+    text-align: left;
+}
+
+#SearchForm__Text h1 {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 2.8rem;
+    font-weight: 500;
+    opacity: 98%;
+    letter-spacing: -0.1rem;
+}
+
+#SearchForm__Text h1::after {
+    content: '';
+    width: 10%;
+    height: 2px;
+    display: block;
+    background: red;
+}
+
+#SearchForm__Text p {
+    margin: 1.5em 0 1em 0;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    opacity: 98%;
+}
+
+/*********** SEARCH FORM **********/
+#SearchForm {
+    display: flex;
+    padding: 1em 0;
+    flex-grow: 3;
+    align-items: center;
+}
+
+#SearchForm > * {
+    margin: 0 0.3em;
+}
+
+#SearchBoxDiv {
+    display: flex;
+    height: 60%;
+    border: 1px solid white;
+    border-radius: 2px;
+    flex-grow: 3;
+}
+
+#SearchTextBox {
+    height: 100%;
+    padding: 1em 1.5em;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: Roboto, sans-serif;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    border-radius: 2px 0 0 2px;
+    flex-grow: 4;
+    transition: border 0.3s ease-out;
+}
+
+#SearchTextBox::placeholder {
+    color: rgb(240, 240, 240);
+    font-weight: 300;
+}
+
+#SearchButton {
+    font-family: 'Nunito Sans', sans-serif;
+    border: none;
+    border-radius: 0 1px 1px 0;
+    flex-grow: 1;
+    transition: all 0.2s ease-out;
+}
+
+#SearchButton:hover {
+    cursor: pointer;
+    color: red;
+    background-color: white;
+}
+
+#ResetButton {
+    margin-left: 1em;
+    height: 58%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 2px;
+    flex-grow: 1;
+    transition: all 0.2s ease-out;
+}
+
+#ResetButton:hover {
+    cursor: pointer;
+    color: red;
+    background-color: white;
+}
+
+/****************************** STUDENTS LIST ******************************/
+#Section2 {
+    padding: 2em 0 4em 0;
+}
+
+#StudentsTable {
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#ColumnsContainer {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 1em 0;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #051b3f;
+    color: white;
+}
+
+.StudentContainer {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 1em 0;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#ColumnsContainer p, .StudentContainer p {
+    font-family: Roboto, sans-serif;
+}
+
+.TextColumn1, .TextColumn3, .TextColumn4, .TextColumn5, .NoRecord {
+    font-weight: 300;
+    text-align: center;
+}
+
+#ColumnsContainer p {
+    font-weight: 500;
+}
+
+.TextColumn1 {
+    width: 10%;
+}
+
+#NameColumn {
+    width: 40%;
+    font-weight: 300;
+}
+
+.TextColumn2 {
+    width: 40%;
+    text-align: left;
+    transition: color 0.3s ease-out;
+}
+
+.TextColumn2:hover, .NoRecord:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.TextColumn3 {
+    width: 15%;
+}
+
+.TextColumn4 {
+    width: 10%;
+}
+
+.TextColumn5 {
+    width: 25%;
+}
+
+.NoRecord {
+    width: 100%;
+}
