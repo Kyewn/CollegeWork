@@ -1,0 +1,49 @@
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\bin\Debug\BookManager.exe.config
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\bin\Debug\BookManager.exe
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\bin\Debug\BookManager.pdb
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\bin\Debug\BookManager.xml
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\obj\Debug\BookManager.vbproj.AssemblyReference.cache
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\obj\Debug\BookManager.Resources.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\obj\Debug\BookManager.vbproj.GenerateResource.cache
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\obj\Debug\BookManager.vbproj.CoreCompileInputs.cache
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\obj\Debug\BookManager.exe
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\obj\Debug\BookManager.xml
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\obj\Debug\BookManager.pdb
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\obj\Debug\BookManager.Dashboard.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\obj\Debug\BookManager.AddBook.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\obj\Debug\BookManager.AddStock.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\obj\Debug\BookManager.TrackOrders.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\obj\Debug\BookManager.ViewSales.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\obj\Debug\BookManager.ViewStocks.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\BookManager\BookManager\obj\Debug\BookManager.Layout.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.AddBook.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.AddStock.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.DialogAddLocation.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.Dashboard.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.DialogAddCategory.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.DialogAddSupplier.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.DialogEditBook.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.DialogBookSearchSettings.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.DialogEditStock.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.Layout.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.Resources.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.TrackOrders.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.ViewSales.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.DialogAddSale.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.DialogEditSale.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.ViewStocks.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.vbproj.GenerateResource.cache
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.vbproj.CoreCompileInputs.cache
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\bin\Debug\BookManager.exe.config
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\bin\Debug\BookManager.exe
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\bin\Debug\BookManager.pdb
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\bin\Debug\BookManager.xml
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.vbproj.AssemblyReference.cache
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.exe
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.xml
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.pdb
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.DialogSaleSearchSettings.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.DialogStockSearchSettings.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.DialogEditOrder.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.DialogOrderSearchSettings.resources
+C:\Users\wztho\Desktop\College Folder\Semester 5 (JAN2022)\DVB1134 VB Programming\Assignment\Project Code\BookManager\BookManager\obj\Debug\BookManager.DialogAddOrder.resources

@@ -1,0 +1,27 @@
+This directory contains sprites for wagTail.gif
+
+Folder name format:
+<growth value><mood value><hygiene value>
+
+Growth value:
+1 - Small
+2 - Medium
+3 - Big
+
+Mood value:
+1 - Good
+2 - OK
+3 - Not good
+
+Hygiene value:
+1 - Clean
+2 - Dirty
+
+-----------------------------------------------
+
+Filename format:
+pet<frame no.>.png
+
+Frame no.
+1 & 2
+I assume you can switch between image 1 and 2, back and forth to create the wag tail animation.

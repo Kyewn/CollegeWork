@@ -1,0 +1,8 @@
+In this directory, users are selecting whether to choose idle sprites / interaction sprites
+
+Folder name meanings:
+0 - Idle
+1 - Play
+2 - Bathe
+3 - Feed
+4 - Pat

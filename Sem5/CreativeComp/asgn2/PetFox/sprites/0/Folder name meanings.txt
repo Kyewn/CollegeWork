@@ -1,0 +1,6 @@
+In this directory, users are selecting whether to choose static idle sprites / animation image sequence. There are 2 animations: wagTail animation and playWithButterFly animation
+
+Folder name meanings:
+0 - Static
+1 - wagTail animation
+2 - playWithButterfly

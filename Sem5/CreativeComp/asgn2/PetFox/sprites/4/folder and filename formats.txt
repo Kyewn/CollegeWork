@@ -1,0 +1,20 @@
+This directory contains sprites for Pat interaction.gif
+
+Folder name formats:
+<growthstage><hygiene>
+
+Growth stage:
+1 - Small
+2 - Medium
+3 - Big
+
+Hygiene:
+1 - Clean
+2 - Dirty
+
+-------------------------------------------------
+
+File name formats:
+pet<frame number>.png
+
+Frame no.: 1-6
