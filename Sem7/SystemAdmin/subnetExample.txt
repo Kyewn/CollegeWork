@@ -1,0 +1,18 @@
+You are given an IP address of 192.168.5.0 255.255.255.0. You are the network administrator and need to subnet this address to make six subnets each with at least 15 hosts per subnet.
+
+1. Make 6 subnets = Borrow 3 network bits from host bits. (2^3)-2 = 8-2 = 6
+2. Identify number of host per subnet = 2^(count remaining host bits) = (2^5)-2 = 32-2 = 30
+3. Identify range of each subnet based on number of host per subnet:
+
+(Range in host bits of network)
+001 00001 - 001 11110 (192.168.5.32 - 192.168.5.62)
+010 00001 - 010 11110 (192.168.5.65 - 192.168.5.94)
+011 00001 - 011 11110 (192.168.5.97 - 192.168.5.126)
+100 00001 - 100 11110 (192.168.5.129 - 192.168.5.158)
+101 00001 - 101 11110 (192.168.161. - 192.168.5.190)
+110 00001 - 110 11110 (192.168.5.193 - 192.168.5.222)
+
+-----------------------------------------------------
+(network bits 000 and 111 are not used as they are first and last network bits, reserved for network ID and broadcasting)
+
+(host bits 00000 and 11111 are not used as they are first and last host bits, reserved for subnet ID and broadcasting)
