@@ -1,0 +1,9 @@
+NodeMCU			LED
+D5				+
+G		150Ohm	-
+
+Data estimate: Average or median.
+Low:   50 data points. RMS for low.
+Medium: 50 data points. RMS for medium.
+High: 50 data points. RMS for high.
+150 data points.
