@@ -1,0 +1,37 @@
+1. Develop database applications implementing business rules with stored procedures
+
+Implement business rules in database:
+-Unsigned for integer field like book quantity
+-Not Null for important field like name, student id
+-Implement stored procedure to calculate the CGPA once grades updated
+
+2. Apply access methods to improve database performance and to build cost models
+
+Optimizing Queries with EXPLAIN
+https://dev.mysql.com/doc/refman/8.0/en/using-explain.html
+https://dev.mysql.com/doc/refman/8.0/en/explain-output.html#explain-join-types
+https://www.exoscale.com/syslog/explaining-mysql-queries/
+
+Optimizing Database Structure
+https://dev.mysql.com/doc/refman/8.0/en/optimizing-database-structure.html
+
+Tip: Optimize Queries
+In many cases database performance issues are caused by inefficient SQL queries. Optimizing your SQL queries is one of the best ways to increase database performance. When you try to do that manually, you’ll encounter several dilemmas around choosing how best to improve query efficiency. These include understanding whether to write a join or a subquery, whether to use EXISTS or IN, and more. When you know the best path forward, you can write queries that improve efficiency and thus database performance as a whole. That means fewer bottlenecks and fewer unhappy end users.
+
+The best way to optimize queries is to use a database performance analysis solution that can guide your optimization efforts by directing you to the most inefficient queries and offering expert advice on how best to improve them.
+
+Tip: Improve Indexes
+In addition to queries, the other essential element of the database is the index. When done right, indexing can increase your database performance and help optimize the duration of your query execution. Indexing creates a data structure that helps keep all your data organized and makes it easier to locate information. Because it’s easier to find data, indexing increases the efficiency of data retrieval and speeds up the entire process, saving both you and the system time and effort.
+
+Tip: Defragment Data (Maintenance plan)
+Data defragmentation is one of the best approaches to increasing database performance. Over time, with so much data constantly being written to and deleted from your database, your data can become fragmented. That fragmentation can slow down the data retrieval process as it interferes with a query’s ability to quickly locate the information it’s looking for. When you defragment data, you allow for relevant data to be grouped together and you erase index page issues. That means your I/O related operations will run faster.
+
+Tip: Review Access
+Once you know your database hardware is working well, you need to review your database access, including which applications are actually accessing your database. If one of your services or applications is suffering from poor database performance, it’s important not to jump to conclusions about which service or application is responsible for the issue. It’s possible a single client is experiencing the bad performance, but it’s also possible the database as a whole is having issues. Dig into who and what is accessing the database and if it’s only one service that’s having an issue, drill down into its metrics to try and find the root cause.
+
+==================
+The Optimizer Cost Model
+==================
+https://dev.mysql.com/doc/refman/8.0/en/cost-model.html
+https://mydbops.wordpress.com/2016/09/26/cost-based-optimization-in-mysql-5-7/
+http://www.unofficialmysqlguide.com/cost-based-optimization.html
